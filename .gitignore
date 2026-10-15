@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.venv/
+.vscode/
+data/
+checkpoints/
+checkpoints_continue/
+comparisons/
+*.png
+
+# Keep only curated documentation images in Git.
+!assets/
+!assets/*.png
+*.pt
+*.pth
+*.ckpt

@@ -1,3 +1,5 @@
+'''这个部分是模型的定义，时间编码，U-Net结构，前向传播等。'''
+
 import math 
 import torch 
 import torch.nn as nn
