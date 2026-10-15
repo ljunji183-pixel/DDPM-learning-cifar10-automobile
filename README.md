@@ -43,15 +43,9 @@ python -m pip install -r requirements.txt
 
 ## 使用第 500 轮权重
 
-**发布状态：权重尚未上传。** 发布后将在本仓库 Releases 提供 `automobile_epoch_500.pt`。仅克隆源码目前不能直接运行采样，请先取得该权重；不要使用不可信来源的权重文件。
+第 500 轮权重已发布：[下载 automobile_epoch_500.pt](https://github.com/ljunji183-pixel/DDPM-learning-cifar10-automobile/releases/download/v0.1.0/automobile_epoch_500.pt)。
 
-将权重放在：
-
-```text
-my-ddpm/
-└── checkpoints_continue/
-    └── automobile_epoch_500.pt
-```
+下载后放入 `checkpoints_continue/automobile_epoch_500.pt`，在项目根目录运行 `python sample.py`。
 
 在项目根目录运行：
 
